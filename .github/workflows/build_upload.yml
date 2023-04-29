@@ -2,8 +2,7 @@
 name: Trigger Make
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   deploy:
